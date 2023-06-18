@@ -1,0 +1,25 @@
+version: "3"
+
+services:
+  db:
+    container_name: db_postgres
+    image: postgres
+    environment:
+      POSTGRES_USER: neoway
+      POSTGRES_PASSWORD: '123456'
+      POSTGRES_DB: neoway
+    ports:
+      - 5432:5432
+    volumes:
+      - ./db-data:/var/lib/postgresql/data
+  golang:
+    container_name: golang
+    image: golang:1.20
+    restart: always
+    volumes:
+      - .:/go/desafio_neoway
+    ports:
+      - 8080:8080
+    command: sh -c "cd desafio_neoway && go run main.go && exec bash"
+    depends_on:
+      - db
