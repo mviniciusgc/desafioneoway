@@ -1,0 +1,4 @@
+CPF                PRIVATE     INCOMPLETO  DATA DA ÚLTIMA COMPRA TICKET MÉDIO          TICKET DA ÚLTIMA COMPRA LOJA MAIS FREQUÊNTE LOJA DA ÚLTIMA COMPRA
+041.091.641-25     0           0           NULL                  NULL                  NULL                    NULL                NULL
+391.410.041-91     0           0           NULL                  NULL                  NULL                    NULL                NULL
+07068934927        0           0           NULL                  NULL                  NULL                    NULL                NULL
