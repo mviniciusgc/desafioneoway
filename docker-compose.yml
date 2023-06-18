@@ -20,6 +20,6 @@ services:
       - .:/go/desafio_neoway
     ports:
       - 8080:8080
-    command: sh -c "cd desafio_neoway && go run main.go && exec bash"
+    command: sh -c "cd desafio_neoway && go get ./... && go run main.go && exec bash"
     depends_on:
       - db
