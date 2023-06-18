@@ -43,7 +43,7 @@ Resposavel por armazenar os dados do CNPJ esses dados podem ser nulos, os dados 
 É necessario ter instalado o `Docker` e ter acesso a `internet`.
 ### Primeiros passos:
 
-1. Rodar o comando `docker compose up -d` para criar os containers do postgres e do golang.
+1. Rodar o comando `docker compose up` para criar os containers do postgres e do golang.
 2. Irá aparecer a mensagem `Server is running on port :8080`
 
 ### Testes
