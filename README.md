@@ -59,8 +59,9 @@ Resposavel por armazenar os dados do CNPJ esses dados podem ser nulos, os dados 
 ### Testes
 
 Para executar os testes é necessário rodar o seguinte comando:
+Entrar no container do docker com o comando `**docker exec -it golang bash**`
 
-`$ go test ./...`
+Rodar o comando `$ go test ./...`
 
 ## Dependencias utilizadas
 
