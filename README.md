@@ -5,6 +5,16 @@ O banco de dados escolhido foi o `postgres` ele é bem estavel oferece uma grand
 ## Padronização
 Foi decido utilizar os padroes descritos no seguinte artigo `https://blog.devgenius.io/golang-naming-conventions-72bbaf84e959`
 
+## Rotas 
+
+[POST] `/api/external/uploadfile?file`
+
+Essa rota recebe como parâmetro um arquivo txt/csv. 
+
+Caso esteja utilizando o postman, selecione o `body` depois `form-data` preencha o campo com o nome `file` mude o tipo do campo de `text` para `file` e selecione o arquivo a ser enviado. 
+
+OBS: o arquivo se encontra na pasta `file` com o nome `base_teste.txt` 
+
 # Tabelas
 O projeto dispoe das seguinte tabela `purchase`.
 
